@@ -99,5 +99,5 @@ QQ：http://127.0.0.1:8080/v1/qq?qq=10001
 
 微博：http://127.0.0.1:8080/v1/weibo?uid=10001
 
-![](https://raw.githubusercontent.com/JuchiaLu/kuzi/master/images/readme1.gif)
+![](https://raw.githubusercontent.com/JuchiaLu/kuzi/main/images/readme1.gif)
 
