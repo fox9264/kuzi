@@ -100,7 +100,8 @@ QQ：http://127.0.0.1:8080/v1/qq?qq=10001
 微博：http://127.0.0.1:8080/v1/weibo?uid=10001
 
 ![](https://raw.githubusercontent.com/JuchiaLu/kuzi/main/images/readme1.gif)
-
+### 直接用mysql命令导入 
+```
 use kuzi
 
 #QQ
@@ -108,4 +109,4 @@ LOAD DATA INFILE 'd:qq_6.9_8e_update.txt'  IGNORE INTO TABLE `qqs` FIELDS termin
 
 #WB
 LOAD DATA INFILE 'd:weibo_2019_5e.txt' IGNORE INTO TABLE `weibos`  FIELDS TERMINATED BY '\t' LINES TERMINATED BY '\n'(phone,uid);
-
+```
